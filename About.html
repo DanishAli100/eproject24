@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./cali.png" />
+    <title>About</title>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="nav.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+        integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <style>
+        .team-container {
+            padding: 50px 0;
+            text-align: center;
+        }
+
+        .team-container h1 {
+            margin-bottom: 50px;
+            font-size: 36px;
+            font-weight: 700;
+        }
+
+        .team-member {
+            margin-bottom: 30px;
+        }
+
+        .menu-item {
+            margin: -9px;
+        }
+
+        .team-member img {
+            width: 100%;
+            border-radius: 50%;
+            transition: transform 0.3s ease, border-radius 0.3s ease;
+        }
+
+        img {
+            cursor: pointer;
+        }
+
+        .team-member img:hover {
+            transform: scale(1.1);
+        }
+
+        .team-member h2 {
+            margin-top: 15px;
+            font-size: 24px;
+            font-weight: 600;
+        }
+
+        .team-member p {
+            font-size: 16px;
+        }
+
+        footer {
+            display: block;
+            text-align: center;
+            padding: 3px;
+            background-color: rgba(0, 0, 0, 0.292);
+            color: black
+        }
+        body{
+            background-color: rgba(95, 27, 27, 0.76);
+        }
+        
+
+        .greek {
+            margin-left: 252px;
+        }
+
+        .margin {
+            margin-left: -82px;
+        } 
+
+        .history-container {
+            padding: 50px 0;
+            text-align: center;
+            background-color: rgb(255, 254, 252);
+        }
+
+        .history-container h1 {
+            margin-bottom: 30px;
+            font-size: 36px;
+            font-weight: 700;
+        }
+
+        .history-container p {
+            font-size: 16px;
+        } 
+    </style>
+</head>
+
+<body>
+    <nav class="navbar">
+        <div class="navbar-container container">
+            <input type="checkbox" name="" id="">
+            <div class="hamburger-lines">
+                <span class="line line1"></span>
+                <span class="line line2"></span>
+                <span class="line line3"></span>
+            </div>
+            <ul class="menu-items">
+                <li><a href="Home Page.html">Home</a></li>
+                <li><a href="About.html">About</a></li>
+                <li class="nav-item dropdown">
+                    <a class=" menu-item nav-link dropdown-toggle" id="navbarDropdownMenuLink" role="button"
+                        data-bs-toggle="dropdown" aria-expanded="false">Category
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                        <li><a class="dropdown-item" href="Arbic.html">Arabic</a></li>
+                        <li><a class="dropdown-item" href="Greek.html">Greek</a></li>
+                        <li><a class="dropdown-item" href="Indic.html">Indic</a></li>
+                    </ul>
+                </li>
+                <li><a href="Contact Us.html">Contact Us</a></li>
+            </ul>
+            <h1 class="logo">Quick Calligraphy</h1>
+        </div>
+    </nav>
+    <div class="container team-container">
+        <h1>Our Team</h1>
+        <div class="row">
+            <div class="col-md-4 col-lg-3 team-member">
+                <img src="hussain.png" alt="Team Member 1">
+                <h2>Hussain </h2>
+            </div>
+            <div class="col-md-4 col-lg-3 team-member">
+                <img src="danish.enc" alt="Team Member 2">
+                <h2>Danish</h2>
+            </div>
+            <div class="col-md-4 col-lg-3 team-member">
+                <img src="M Sami.jpeg" alt="Team Member 3">
+                <h2>Muhammad Sami</h2>
+            </div>
+            <div class="col-md-4 col-lg-3 team-member">
+                <img src="saqlain.jpeg" alt="Team Member 4">
+                <h2>Saqlain</h2>
+            </div>
+        </div>
+    </div>
+
+    <div class="container history-container">
+        <h1>History of Calligraphy</h1>
+        <p>
+            Calligraphy has ancient roots in civilizations such as Egypt, Mesopotamia, and China.
+            Chinese calligraphy, with over 4,000 years of history, emphasizes balance and harmony.
+            Islamic calligraphy, originating in the 7th century, is significant for its association with the Qur'an.
+            Western calligraphy evolved from Roman scripts, flourishing during the medieval period in religious texts.
+        </p>
+    </div>
+
+    <div>
+        <div>
+            <p>
+            <h2 type="text" data-bs-toggle="collapse" data-bs-target="#greek" aria-expanded="false"
+                aria-controls="greek">
+                Greek
+            </h2>
+            </p>
+            <!-- <div style="min-height: 120px;"> -->
+                <div class="collapse  collapse-horizontal" id="greek">
+                    <div class=" card card-body">
+                        Greek calligraphy is the artistic practice of writing Greek script in a stylized and decorative
+                        manner. It dates back to ancient Greece, where it was used in manuscripts, inscriptions, and
+                        official documents. Greek calligraphy emphasizes elegant letterforms and precise strokes, often
+                        featuring ornate decorations and flourishes. The style evolved over centuries, influenced by
+                        Byzantine and later Western European scripts, maintaining its significance in religious texts,
+                        historical records, and modern artistic expressions.
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class=" ">
+            <p>
+            <h2 type="text" data-bs-toggle="collapse" data-bs-target="#indic" aria-expanded="false"
+                aria-controls="greek">
+                Indic
+            </h2>
+            </p>
+            <!-- <div style="min-height: 120px;"> -->
+                <div class="collapse  collapse-horizontal" id="indic">
+                    <div class="card card-body">
+                        Indic calligraphy refers to the artistic writing traditions of the Indian subcontinent,
+                        encompassing scripts like Devanagari, Tamil, Bengali, and more. It is characterized by
+                        intricate, flowing letterforms and a focus on decorative elements. Historically, Indic
+                        calligraphy has been used in religious manuscripts, royal edicts, and literary works. Each
+                        script has unique stylistic features, influenced by regional art and culture. Indic calligraphy
+                        continues to be an important cultural and artistic practice, celebrated in both traditional and
+                        contemporary contexts.
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="">
+            <p>
+            <h2 type="text" data-bs-toggle="collapse" data-bs-target="#Arabic" aria-expanded="false"
+                aria-controls="greek">
+                Arabic
+            </h2>
+            </p>
+            <!-- <div style="  min-height: 120px;"> -->
+                <div class="collapse  collapse-horizontal" id="Arabic">
+                    <div class="card card-body">
+                        Arabic calligraphy, or "khatt," is the artistic practice of handwriting and calligraphy based on
+                        the Arabic script. It is a revered art form in Islamic culture, valued for its beauty and
+                        religious significance. Arabic calligraphy emphasizes fluidity, harmony, and rhythm in its
+                        letterforms, often incorporating intricate designs and patterns. Various styles, such as Kufic,
+                        Naskh, Thuluth, and Diwani, have developed over centuries, each with its distinct
+                        characteristics. Arabic calligraphy is widely used in religious texts, architecture, and modern
+                        artworks, symbolizing the unity of artistic and spiritual expression.
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <footer>
+        <p>@2024 All Rights Reserved</p>
+    </footer>
+</body>
+
+</html>
